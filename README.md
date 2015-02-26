@@ -35,7 +35,7 @@ class SomeClass
     {
         $mc = new MailChimpApi('YOUR-MAILCHIMP-APIKEY-GOES-HERE');
        
-       //We are using the 'list/subscribe' method to subscribe a user/visitor to our newsletter list.
+       //We are using the 'lists/subscribe' method to subscribe a user/visitor to our newsletter list.
         $results = $mc->run('lists/subscribe',[
             'id'                => 'YOUR-LIST-ID-GOES-HERE',
             'email'             => ['email'=>'subscribers@email.com'],
