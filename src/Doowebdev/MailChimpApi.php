@@ -51,12 +51,7 @@ namespace Doowebdev;
             }
         }
 
-        /**
-         * @param       $method
-         * @param array $postFields
-         *
-         * @return mixed
-         */
+
         public function run($method, $postFields = [])
         {
             $postFields['apikey'] = $this->apiKey;
