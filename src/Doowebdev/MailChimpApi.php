@@ -12,7 +12,7 @@ namespace Doowebdev;
         /**
          * @var
          */
-        private $getApiKey;
+        private $apiKey;
         /**
          * @var string
          */
@@ -47,7 +47,7 @@ namespace Doowebdev;
                 }
 
                 $this->endpoint  = 'https://' . $dataCentre . '.api.mailchimp.com/2.0';
-                $this->getApiKey = $apiKey;
+                $this->apiKey = $apiKey;
             }
         }
 
@@ -59,7 +59,7 @@ namespace Doowebdev;
          */
         public function run($method, $postFields = [])
         {
-            $postFields['apikey'] = $this->getApiKey;
+            $postFields['apikey'] = $this->apiKey;
 
             $request = $this->guzzle->post(
                 $this->endpoint . '/' . $method . '.' . self::FORMAT,
