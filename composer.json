@@ -3,7 +3,7 @@
   "description": "Doowebdev PHP MailChimp API v2 Wrapper using Guzzle",
   "homepage": "https://github.com/doowebdev/doowebdev",
   "keywords": [
-    "mailchimp, mailchimp api v2, api v2, php api, guzzle"
+    "mailchimp", "mailchimp api v2", "api v2", "php api", "guzzle"
   ],
   "license": "MIT",
   "authors": [
