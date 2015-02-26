@@ -53,6 +53,7 @@ class SomeClass
 
 ```
 
+
 <p><strong>Thats it!</strong></p>
 <p>To get the complete list of methods you can use visit the official MailChimp API documentation here: https://apidocs.mailchimp.com/api/2.0/#method-sections</p>
 
