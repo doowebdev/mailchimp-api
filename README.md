@@ -51,7 +51,6 @@ class SomeClass
 
 }
 
-
 ```
 
 <p><strong>Thats it!</strong></p>
