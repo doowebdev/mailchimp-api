@@ -51,7 +51,6 @@ class MailChimpApi
         }
     }
 
-
     /**
      * @param       $method
      * @param array $postFields
